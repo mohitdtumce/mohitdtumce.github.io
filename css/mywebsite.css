@@ -216,6 +216,16 @@ nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
 	background: #ff8d15;
 }
 
+.btn.btn-black-fill {
+	color: #666;
+	border-color: #666;
+	background: transparent;
+}
+.btn.btn-black-fill:hover {
+	color: white;
+	border-color: white;
+	background: #666;
+}
 .btn.btn-blue-fill {
 	color: #f08d24;
 	border-color: #f08d24;
@@ -538,7 +548,7 @@ section {
 .team .avatar {
 	position: relative;
 	z-index: 2;
-	margin-top: -60px;
+	margin-top: 60px;
 	border-radius: 50%;
 }
 
@@ -1016,7 +1026,7 @@ footer .social-footer li:hover a {
 }
 
 .blue-bg {
-	background: #f08d24;
+	background: #dedddd;
 }
 
 .muted {
@@ -1180,7 +1190,7 @@ footer .social-footer li:hover a {
 .wobble:hover {
   -webkit-animation-name: wobble;
   animation-name: wobble;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 3s;
   animation-duration: 1s;
   -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
